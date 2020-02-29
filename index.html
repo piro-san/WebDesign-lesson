@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>WebDesign-Lesson</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Teko&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      
+     <h1 class="header-logo">WebDesign-Lesson</h1>
+      
+    </div>
+  </header>
+  <div class="top-wrapper">
+    <div class="container">
+      <img src="image/top-img.jpeg" alt="" id="top-image">
+      <div class="top-text">
+        <h1 class="top-heading">私が目指すところ</h1>
+        <div class="top-points">
+          <div class="point">
+            <h2>善意</h2>
+            <p class="point-text">行動の目的が相手にとって喜びになることをする人。</p>
+          </div>
+          <div class="point">
+            <h2>誠実</h2>
+            <p class="point-text">真面目で嘘、偽りなく信頼できる人</p>
+          </div>
+          <div class="point">
+            <h2>柔和</h2>
+            <p class="point-text">優しく穏やかで、周りの人を安心させてくれる人</p>
+          </div>
+          <div class="point">
+            <h2>自制</h2>
+            <p class="point-text">自分の利益だけを追求することなく、自己管理もしっかりできる人</p>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
+  <div class="faq-form">
+
+    <div class="faq-wrapper">
+      <div class="container">
+        <h1 class="faq-heading">私の好きなもの</h1>
+        <div class="faq">
+          <ul class="faq-list">
+            <li class="faq-list-item">
+              <h3 class="question"><span>+</span>好きな食べ物は？</h3>
+              <div class="answer">
+                <p>カレーライス　ラーメン　インドカレー</p>
+              </div>
+            </li>
+            <li class="faq-list-item">
+              <h3 class="question"><span>+</span>好きな映画は？</h3>
+              <div class="answer">
+                <p>スクールオブロック　シング</p>
+              </div>
+            </li>
+            <li class="faq-list-item">
+              <h3 class="question"><span>+</span>好きなスポーツは？</h3>
+              <div class="answer">
+                <p>トライアスロン　マラソン</p>
+              </div>
+            </li>
+            
+          </ul>
+          
+        </div>
+        
+      </div>
+    </div>
+    <div class="form-wrapper">
+      <div class="container">
+        <h1 class="form-hedding">お問い合わせはこちら</h1>
+        <span class="btn form mail-modal-show">メールを送信</span>
+        <p class="tokki">※送信フォームが出ますがサンプルフォームのためメールの送信はできません。</p>
+      </div>
+    </div>
+  </div>
+    <!-- ここからモーダル -->
+    <div class="mail-modal-wrapper" id="mail-modal">
+      <div class="modal">
+        <div>
+          <i class="fa fa-2x fa-times" id="close-modal"></i>
+        </div>
+        <div id="mail-form">
+        <h2>Emailを送信</h2>
+        <form action="#">
+          <p>お名前:<br>
+            <input class="form-control" type="text" placeholder="国税太郎">
+          </p>
+          <p>メールアドレス:<br>
+            <input class="form-control" type="text" placeholder="xxx@gmail.com">
+          </p>
+          <p>お問い合わせ内容:<br>
+            <textarea name="comment" cols="50" rows="5"></textarea>
+          </p>
+
+          <div id="submit-btn">送信</div>
+          <p class="tokki">※サンプルフォームのため送信されません。</p>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <!-- ここまでモーダル -->
+  <footer>
+    <div class="container">
+      <h2 class="footer-logo">WebDesign-Lesson</h2>
+      <div class="address">
+        <a href="#">東京都渋谷区○○○グローリー２０４号室</a>
+        <a href="#">TEL 0x0-0x0-0000</a>
+      </div>
+      <p>©️Happy Life! pirosan WebDesign-Lesson</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
