@@ -247,7 +247,35 @@ footer p{
     justify-content: center;
   }
 }
-@media (max-width:670px){
+@media (max-width:736px){
+  .container{
+    width:400px;
+  }
+  .header-logo{
+    text-align: center;
+  }
+  .top-points{
+    display:block;
+  }
+  .point{
+    width:100%;
+  }
+  .modal{
+    left:5%;
+  }
+  .faq-list{
+    width:300px;
+    margin:0 auto;
+  }
+  .footer-logo{
+    justify-content: center;
+  }
+  footer a{
+    justify-content: center;
+  }
+}
+
+@media (max-width:414px){
   .container{
     width:320px;
   }
