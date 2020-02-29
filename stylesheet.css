@@ -247,7 +247,7 @@ footer p{
     justify-content: center;
   }
 }
-@media (max-width:736px){
+@media (max-width:700px){
   .container{
     width:400px;
   }
@@ -275,7 +275,7 @@ footer p{
   }
 }
 
-@media (max-width:414px){
+@media (max-width:360px){
   .container{
     width:320px;
   }
